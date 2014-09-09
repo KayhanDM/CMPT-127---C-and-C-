@@ -1,4 +1,4 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 1 at 2014-09-09 13:23:47.136254
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 1 at 2014-09-09 14:37:58.138843
 testing CMPT127-1147-kdehghan/1/t1.c
 (make -f /Users/vaughan/lab/1/Makefile.test t1 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t1.c   -o t1
@@ -6,7 +6,7 @@ compiled OK
 
 Unit test /Users/vaughan/lab/1/testdir/t1/hello: 
  Check output string is correct
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.tQBl8l
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.yeAgVt
 	Files: ['args', 'err', 'in', 'out', 'README', 't1']
 Sandbox dir /Users/build/sandbox
 	sudo -u build gtimeout -k 5s 5s ./t1 $(cat args) < in > test.out 2> test.err
