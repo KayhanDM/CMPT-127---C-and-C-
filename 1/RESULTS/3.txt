@@ -1,4 +1,4 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-09 14:38:14.132705
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-09 16:50:24.609857
 testing CMPT127-1147-kdehghan/1/t3.c
 (make -f /Users/vaughan/lab/1/Makefile.test t3 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t3.c   -o t3
@@ -6,11 +6,86 @@ compiled OK
 
 Unit test /Users/vaughan/lab/1/testdir/t3/largenegative: 
  Large negative value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.RkMvLr
-	Files: ['err', 'in', 'out', 'README', 't2', 't3']
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3']
 Sandbox dir /Users/build/sandbox
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't2', 't3', 'test.err', 'test.out']
-Error: Your program wrote incorrect output on stdout.
-Your output was:  -8866 -8866 -8865\n \n
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t3/negative: 
+ Small negative value
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox
+	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t3/negativeint: 
+ Small negative integer value
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox
+	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t3/pi: 
+ Inputs pi
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox
+	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t3/positiveint: 
+ Small positive integer value
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox
+	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t3/random1: 
+ Random positive value
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox
+	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t3/random2: 
+ Random positive value
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.Wa6O0v
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox
+	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.
