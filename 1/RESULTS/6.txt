@@ -1,4 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-09 19:01:43.745816
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-09 22:30:40.645816
+Sandbox  /Users/build/sandbox.kdehghan.RUEJu_
 (make -f /Users/vaughan/lab/1/Makefile.test t6 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 Error: Build returned 2. Error output:
 Make stdout:

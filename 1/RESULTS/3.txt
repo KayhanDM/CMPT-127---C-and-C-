@@ -1,4 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-09 19:01:42.652244
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-09 22:30:39.614352
+Sandbox  /Users/build/sandbox.kdehghan.MNXQWq
 testing CMPT127-1147-kdehghan/1/t3.c
 (make -f /Users/vaughan/lab/1/Makefile.test t3 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t3.c   -o t3
@@ -6,9 +7,9 @@ compiled OK
 
 Unit test /Users/vaughan/lab/1/testdir/t3/largenegative: 
  Large negative value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -18,9 +19,9 @@ Sandbox dir /Users/build/sandbox
 
 Unit test /Users/vaughan/lab/1/testdir/t3/negative: 
  Small negative value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -30,9 +31,9 @@ Sandbox dir /Users/build/sandbox
 
 Unit test /Users/vaughan/lab/1/testdir/t3/negativeint: 
  Small negative integer value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -42,9 +43,9 @@ Sandbox dir /Users/build/sandbox
 
 Unit test /Users/vaughan/lab/1/testdir/t3/pi: 
  Inputs pi
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -54,9 +55,9 @@ Sandbox dir /Users/build/sandbox
 
 Unit test /Users/vaughan/lab/1/testdir/t3/positiveint: 
  Small positive integer value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -66,9 +67,9 @@ Sandbox dir /Users/build/sandbox
 
 Unit test /Users/vaughan/lab/1/testdir/t3/random1: 
  Random positive value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -78,9 +79,9 @@ Sandbox dir /Users/build/sandbox
 
 Unit test /Users/vaughan/lab/1/testdir/t3/random2: 
  Random positive value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.ekSt8v
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.nKxzoJ
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox
+Sandbox dir /Users/build/sandbox.kdehghan.MNXQWq
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
