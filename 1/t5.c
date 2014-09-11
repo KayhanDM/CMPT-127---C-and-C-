@@ -12,7 +12,7 @@ int main(void)
         num_floor=floor(num);
         num_round=round(num);
         num_ceil=ceil(num);
-        printf(  "\n%d %d %d\n",num_floor,num_round,num_ceil );
+        printf(  "%d %d %d\n",num_floor,num_round,num_ceil );
         
      }
     printf("Done.\n");
