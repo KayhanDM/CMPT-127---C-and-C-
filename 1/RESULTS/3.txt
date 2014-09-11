@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-09 23:09:32.638197
-Sandbox  /Users/build/sandbox.kdehghan.4L20AS
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-10 22:59:52.654838
+Sandbox  /Users/build/sandbox.kdehghan.VTDCEg
 testing CMPT127-1147-kdehghan/1/t3.c
 (make -f /Users/vaughan/lab/1/Makefile.test t3 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t3.c   -o t3
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /Users/vaughan/lab/1/testdir/t3/largenegative: 
  Large negative value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -19,9 +19,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
 
 Unit test /Users/vaughan/lab/1/testdir/t3/negative: 
  Small negative value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -31,9 +31,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
 
 Unit test /Users/vaughan/lab/1/testdir/t3/negativeint: 
  Small negative integer value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -43,9 +43,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
 
 Unit test /Users/vaughan/lab/1/testdir/t3/pi: 
  Inputs pi
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -55,9 +55,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
 
 Unit test /Users/vaughan/lab/1/testdir/t3/positiveint: 
  Small positive integer value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -67,9 +67,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
 
 Unit test /Users/vaughan/lab/1/testdir/t3/random1: 
  Random positive value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
@@ -79,9 +79,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
 
 Unit test /Users/vaughan/lab/1/testdir/t3/random2: 
  Random positive value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.zZYgVO
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ScJIlN
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.4L20AS
+Sandbox dir /Users/build/sandbox.kdehghan.VTDCEg
 	sudo -u build gtimeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't3', 'test.err', 'test.out']

@@ -1,7 +1,56 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 7 at 2014-09-09 23:09:33.871996
-Sandbox  /Users/build/sandbox.kdehghan._G96eC
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 7 at 2014-09-10 22:59:54.308846
+Sandbox  /Users/build/sandbox.kdehghan.kJK7dw
+testing CMPT127-1147-kdehghan/1/t7.c
 (make -f /Users/vaughan/lab/1/Makefile.test t7 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
-Error: Build returned 2. Error output:
-Make stdout:
-Make stderr:
-	make: *** No rule to make target `t7'.  Stop.
+	cc -Wall -std=c99    t7.c   -o t7
+compiled OK
+
+Unit test /Users/vaughan/lab/1/testdir/t7/111: 
+ from instructions
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+	Files: ['err', 'in', 'out', 'README', 't7']
+Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t7/1176: 
+ from instructions
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
+	returned 0
+	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t7/664: 
+ from instructions
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
+	returned 0
+	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t7/744: 
+ from instructions
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
+	returned 0
+	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,7 +1,56 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-09 23:09:33.718193
-Sandbox  /Users/build/sandbox.kdehghan.ry3wGL
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-10 22:59:53.895064
+Sandbox  /Users/build/sandbox.kdehghan.9WQ5md
+testing CMPT127-1147-kdehghan/1/t6.c
 (make -f /Users/vaughan/lab/1/Makefile.test t6 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
-Error: Build returned 2. Error output:
-Make stdout:
-Make stderr:
-	make: *** No rule to make target `t6'.  Stop.
+	cc -Wall -std=c99    t6.c   -o t6
+compiled OK
+
+Unit test /Users/vaughan/lab/1/testdir/t6/few: 
+ A short list
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.DyxDYK
+	Files: ['err', 'in', 'out', 'README', 't6']
+Sandbox dir /Users/build/sandbox.kdehghan.9WQ5md
+	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t6/many: 
+ Many lines, some blank
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.DyxDYK
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox.kdehghan.9WQ5md
+	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t6/negative: 
+ Human computable
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.DyxDYK
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox.kdehghan.9WQ5md
+	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /Users/vaughan/lab/1/testdir/t6/simple: 
+ Human computable
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.DyxDYK
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+Sandbox dir /Users/build/sandbox.kdehghan.9WQ5md
+	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+	returned 0
+	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.
