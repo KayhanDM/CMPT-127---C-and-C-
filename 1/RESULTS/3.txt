@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-12 01:00:27.881848
-Sandbox  /home/build/sandbox.kdehghan.KhATlG
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 3 at 2014-09-12 08:13:55.296804
+Sandbox  /home/build/sandbox.kdehghan.ncJ0Wk
 testing CMPT127-1147-kdehghan/1/t3.c
 (make -f /home/vaughan/lab/1/Makefile.test t3 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t3.c  -lm -o t3
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /home/vaughan/lab/1/testdir/t3/random2: 
  Random positive value
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
@@ -19,9 +19,9 @@ Sandbox dir /home/build/sandbox.kdehghan.KhATlG
 
 Unit test /home/vaughan/lab/1/testdir/t3/largenegative: 
  Large negative value
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
@@ -31,9 +31,9 @@ Sandbox dir /home/build/sandbox.kdehghan.KhATlG
 
 Unit test /home/vaughan/lab/1/testdir/t3/negativeint: 
  Small negative integer value
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
@@ -43,9 +43,9 @@ Sandbox dir /home/build/sandbox.kdehghan.KhATlG
 
 Unit test /home/vaughan/lab/1/testdir/t3/pi: 
  Inputs pi
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
@@ -55,9 +55,9 @@ Sandbox dir /home/build/sandbox.kdehghan.KhATlG
 
 Unit test /home/vaughan/lab/1/testdir/t3/positiveint: 
  Small positive integer value
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
@@ -67,9 +67,9 @@ Sandbox dir /home/build/sandbox.kdehghan.KhATlG
 
 Unit test /home/vaughan/lab/1/testdir/t3/negative: 
  Small negative value
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
@@ -79,9 +79,9 @@ Sandbox dir /home/build/sandbox.kdehghan.KhATlG
 
 Unit test /home/vaughan/lab/1/testdir/t3/random1: 
  Random positive value
-/home/vaughan/127/lab.kdehghan.lLEa4F
+/home/vaughan/127/lab.kdehghan.RKmGhd
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.KhATlG
+Sandbox dir /home/build/sandbox.kdehghan.ncJ0Wk
 	sudo -u build timeout -k 5s 5s ./t3  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 't3', 'out']
