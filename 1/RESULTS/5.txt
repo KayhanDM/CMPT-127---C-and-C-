@@ -1,30 +1,30 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 5 at 2014-09-11 21:51:05.517024
-Sandbox  /Users/build/sandbox.kdehghan.JaKCyR
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 5 at 2014-09-12 01:00:28.288938
+Sandbox  /home/build/sandbox.kdehghan.dmYrFa
 testing CMPT127-1147-kdehghan/1/t5.c
-(make -f /Users/vaughan/lab/1/Makefile.test t5 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
-	cc -Wall -std=c99    t5.c   -o t5
+(make -f /home/vaughan/lab/1/Makefile.test t5 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
+	cc -Wall -std=c99    t5.c  -lm -o t5
 compiled OK
 
-Unit test /Users/vaughan/lab/1/testdir/t5/few: 
+Unit test /home/vaughan/lab/1/testdir/t5/few: 
  A short list
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.1pcdbF
-	Files: ['err', 'in', 'out', 'README', 't5']
-Sandbox dir /Users/build/sandbox.kdehghan.JaKCyR
-	sudo -u build gtimeout -k 5s 5s ./t5  < in > test.out 2> test.err
+/home/vaughan/127/lab.kdehghan.ozfU5D
+	Files: ['README', 'err', 't5', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.dmYrFa
+	sudo -u build timeout -k 5s 5s ./t5  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't5', 'test.err', 'test.out']
+	Files: ['README', 'test.err', 'test.out', 'err', 't5', 'in', 'out']
 	stdout OK
 	stderr OK
 	passed.
 
-Unit test /Users/vaughan/lab/1/testdir/t5/many: 
+Unit test /home/vaughan/lab/1/testdir/t5/many: 
  Many lines, some blank
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.1pcdbF
-	Files: ['err', 'in', 'out', 'README', 't5', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.JaKCyR
-	sudo -u build gtimeout -k 5s 5s ./t5  < in > test.out 2> test.err
+/home/vaughan/127/lab.kdehghan.ozfU5D
+	Files: ['README', 'test.err', 'test.out', 'err', 't5', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.dmYrFa
+	sudo -u build timeout -k 5s 5s ./t5  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't5', 'test.err', 'test.out']
+	Files: ['README', 'test.err', 'test.out', 'err', 't5', 'in', 'out']
 	stdout OK
 	stderr OK
 	passed.

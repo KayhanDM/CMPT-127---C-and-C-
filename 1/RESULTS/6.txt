@@ -1,54 +1,54 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-11 21:51:05.805410
-Sandbox  /Users/build/sandbox.kdehghan.9ONP8Y
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-12 01:00:28.447664
+Sandbox  /home/build/sandbox.kdehghan.ScFmJ5
 testing CMPT127-1147-kdehghan/1/t6.c
-(make -f /Users/vaughan/lab/1/Makefile.test t6 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
-	cc -Wall -std=c99    t6.c   -o t6
+(make -f /home/vaughan/lab/1/Makefile.test t6 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
+	cc -Wall -std=c99    t6.c  -lm -o t6
 compiled OK
 
-Unit test /Users/vaughan/lab/1/testdir/t6/few: 
+Unit test /home/vaughan/lab/1/testdir/t6/few: 
  A short list
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ACOl2C
-	Files: ['err', 'in', 'out', 'README', 't6']
-Sandbox dir /Users/build/sandbox.kdehghan.9ONP8Y
-	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+/home/vaughan/127/lab.kdehghan.DnFCLh
+	Files: ['README', 'err', 'in', 'out', 't6']
+Sandbox dir /home/build/sandbox.kdehghan.ScFmJ5
+	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
 	stdout OK
 	stderr OK
 	passed.
 
-Unit test /Users/vaughan/lab/1/testdir/t6/many: 
+Unit test /home/vaughan/lab/1/testdir/t6/many: 
  Many lines, some blank
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ACOl2C
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.9ONP8Y
-	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+/home/vaughan/127/lab.kdehghan.DnFCLh
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
+Sandbox dir /home/build/sandbox.kdehghan.ScFmJ5
+	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
 	stdout OK
 	stderr OK
 	passed.
 
-Unit test /Users/vaughan/lab/1/testdir/t6/negative: 
+Unit test /home/vaughan/lab/1/testdir/t6/simple: 
  Human computable
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ACOl2C
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.9ONP8Y
-	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+/home/vaughan/127/lab.kdehghan.DnFCLh
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
+Sandbox dir /home/build/sandbox.kdehghan.ScFmJ5
+	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
 	stdout OK
 	stderr OK
 	passed.
 
-Unit test /Users/vaughan/lab/1/testdir/t6/simple: 
+Unit test /home/vaughan/lab/1/testdir/t6/negative: 
  Human computable
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ACOl2C
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.9ONP8Y
-	sudo -u build gtimeout -k 5s 5s ./t6  < in > test.out 2> test.err
+/home/vaughan/127/lab.kdehghan.DnFCLh
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
+Sandbox dir /home/build/sandbox.kdehghan.ScFmJ5
+	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
-	Files: ['err', 'in', 'out', 'README', 't6', 'test.err', 'test.out']
+	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
 	stdout OK
 	stderr OK
 	passed.

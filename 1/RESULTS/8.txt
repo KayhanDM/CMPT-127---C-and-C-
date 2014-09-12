@@ -1,6 +1,6 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 8 at 2014-09-11 21:51:06.594717
-Sandbox  /Users/build/sandbox.kdehghan.ATkrig
-(make -f /Users/vaughan/lab/1/Makefile.test t8 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 8 at 2014-09-12 01:00:28.794150
+Sandbox  /home/build/sandbox.kdehghan.654pqF
+(make -f /home/vaughan/lab/1/Makefile.test t8 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 Error: Build returned 2. Error output:
 Make stdout:
 Make stderr:
