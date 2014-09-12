@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-12 08:13:55.885447
-Sandbox  /home/build/sandbox.kdehghan.nCzF4O
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 6 at 2014-09-12 10:42:39.708727
+Sandbox  /home/build/sandbox.kdehghan.LX6Bkd
 testing CMPT127-1147-kdehghan/1/t6.c
 (make -f /home/vaughan/lab/1/Makefile.test t6 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t6.c  -lm -o t6
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /home/vaughan/lab/1/testdir/t6/few: 
  A short list
-/home/vaughan/127/lab.kdehghan.1lTfue
+/home/vaughan/127/lab.kdehghan.cL241f
 	Files: ['README', 'err', 'in', 'out', 't6']
-Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
+Sandbox dir /home/build/sandbox.kdehghan.LX6Bkd
 	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
@@ -19,9 +19,9 @@ Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
 
 Unit test /home/vaughan/lab/1/testdir/t6/many: 
  Many lines, some blank
-/home/vaughan/127/lab.kdehghan.1lTfue
+/home/vaughan/127/lab.kdehghan.cL241f
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
-Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
+Sandbox dir /home/build/sandbox.kdehghan.LX6Bkd
 	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
@@ -31,9 +31,9 @@ Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
 
 Unit test /home/vaughan/lab/1/testdir/t6/simple: 
  Human computable
-/home/vaughan/127/lab.kdehghan.1lTfue
+/home/vaughan/127/lab.kdehghan.cL241f
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
-Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
+Sandbox dir /home/build/sandbox.kdehghan.LX6Bkd
 	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
@@ -43,9 +43,9 @@ Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
 
 Unit test /home/vaughan/lab/1/testdir/t6/negative: 
  Human computable
-/home/vaughan/127/lab.kdehghan.1lTfue
+/home/vaughan/127/lab.kdehghan.cL241f
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
-Sandbox dir /home/build/sandbox.kdehghan.nCzF4O
+Sandbox dir /home/build/sandbox.kdehghan.LX6Bkd
 	sudo -u build timeout -k 5s 5s ./t6  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 'in', 'out', 't6']
