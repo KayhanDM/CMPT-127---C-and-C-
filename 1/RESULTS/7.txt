@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 7 at 2014-09-10 22:59:54.308846
-Sandbox  /Users/build/sandbox.kdehghan.kJK7dw
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 7 at 2014-09-11 21:51:06.202373
+Sandbox  /Users/build/sandbox.kdehghan.thHSzs
 testing CMPT127-1147-kdehghan/1/t7.c
 (make -f /Users/vaughan/lab/1/Makefile.test t7 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t7.c   -o t7
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /Users/vaughan/lab/1/testdir/t7/111: 
  from instructions
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ol4G6J
 	Files: ['err', 'in', 'out', 'README', 't7']
-Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+Sandbox dir /Users/build/sandbox.kdehghan.thHSzs
 	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
@@ -19,9 +19,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
 
 Unit test /Users/vaughan/lab/1/testdir/t7/1176: 
  from instructions
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ol4G6J
 	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+Sandbox dir /Users/build/sandbox.kdehghan.thHSzs
 	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
 	returned 0
 	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
@@ -31,9 +31,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
 
 Unit test /Users/vaughan/lab/1/testdir/t7/664: 
  from instructions
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ol4G6J
 	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+Sandbox dir /Users/build/sandbox.kdehghan.thHSzs
 	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
 	returned 0
 	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
@@ -43,9 +43,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
 
 Unit test /Users/vaughan/lab/1/testdir/t7/744: 
  from instructions
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.XDGbMv
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.ol4G6J
 	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.kJK7dw
+Sandbox dir /Users/build/sandbox.kdehghan.thHSzs
 	sudo -u build gtimeout -k 5s 5s ./t7  < in > test.out 2> test.err
 	returned 0
 	Files: ['.DS_Store', 'err', 'in', 'out', 'README', 't7', 'test.err', 'test.out']

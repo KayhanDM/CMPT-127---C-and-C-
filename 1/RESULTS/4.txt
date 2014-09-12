@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 4 at 2014-09-10 22:59:53.229479
-Sandbox  /Users/build/sandbox.kdehghan.5jXGHO
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 4 at 2014-09-11 21:51:05.166621
+Sandbox  /Users/build/sandbox.kdehghan.gRsLCf
 testing CMPT127-1147-kdehghan/1/t4.c
 (make -f /Users/vaughan/lab/1/Makefile.test t4 LAB="/Users/vaughan/lab/1" REPO="/Users/vaughan/Dropbox/cmpt/CMPT127/labs/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t4.c   -o t4
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /Users/vaughan/lab/1/testdir/t4/pi: 
  Inputs pi
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.P70P6K
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.xQ20qX
 	Files: ['err', 'in', 'out', 'README', 't4']
-Sandbox dir /Users/build/sandbox.kdehghan.5jXGHO
+Sandbox dir /Users/build/sandbox.kdehghan.gRsLCf
 	sudo -u build gtimeout -k 5s 5s ./t4  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't4', 'test.err', 'test.out']
@@ -19,9 +19,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.5jXGHO
 
 Unit test /Users/vaughan/lab/1/testdir/t4/random1: 
  Random positive value
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.P70P6K
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.xQ20qX
 	Files: ['err', 'in', 'out', 'README', 't4', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.5jXGHO
+Sandbox dir /Users/build/sandbox.kdehghan.gRsLCf
 	sudo -u build gtimeout -k 5s 5s ./t4  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't4', 'test.err', 'test.out']
@@ -31,9 +31,9 @@ Sandbox dir /Users/build/sandbox.kdehghan.5jXGHO
 
 Unit test /Users/vaughan/lab/1/testdir/t4/sausage: 
  sausage
-/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.P70P6K
+/Users/vaughan/Dropbox/cmpt/CMPT127/labs/lab.kdehghan.xQ20qX
 	Files: ['err', 'in', 'out', 'README', 't4', 'test.err', 'test.out']
-Sandbox dir /Users/build/sandbox.kdehghan.5jXGHO
+Sandbox dir /Users/build/sandbox.kdehghan.gRsLCf
 	sudo -u build gtimeout -k 5s 5s ./t4  < in > test.out 2> test.err
 	returned 0
 	Files: ['err', 'in', 'out', 'README', 't4', 'test.err', 'test.out']
