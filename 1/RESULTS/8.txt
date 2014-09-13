@@ -1,7 +1,17 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 8 at 2014-09-12 10:42:39.968691
-Sandbox  /home/build/sandbox.kdehghan.dfJ0ie
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 8 at 2014-09-13 04:06:52.910841
+Sandbox  /home/build/sandbox.kdehghan.HtqUNh
+testing CMPT127-1147-kdehghan/1/t8.c
 (make -f /home/vaughan/lab/1/Makefile.test t8 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
-Error: Build returned 2. Error output:
-Make stdout:
-Make stderr:
-	make: *** No rule to make target `t8'.  Stop.
+	cc -Wall -std=c99    t8.c  -lm -o t8
+compiled OK
+
+Unit test /home/vaughan/lab/1/testdir/t8/1266: 
+ from instructions
+/home/vaughan/127/lab.kdehghan.mYoKci
+	Files: ['README', 't8', 'err', '.DS_Store', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.HtqUNh
+	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
+	returned 0
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+Error: Your program wrote incorrect output on stdout.
+Your output was:       ##     \n    #..#    \n   #....#   \n  #......#  \n #........# \n############\n
