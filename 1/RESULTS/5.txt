@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 5 at 2014-09-14 04:07:22.190271
-Sandbox  /home/build/sandbox.kdehghan.h9LEWg
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 5 at 2014-09-15 04:07:01.212276
+Sandbox  /home/build/sandbox.kdehghan.ECKYSK
 testing CMPT127-1147-kdehghan/1/t5.c
 (make -f /home/vaughan/lab/1/Makefile.test t5 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t5.c  -lm -o t5
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /home/vaughan/lab/1/testdir/t5/few: 
  A short list
-/home/vaughan/127/lab.kdehghan.4n1zml
+/home/vaughan/127/lab.kdehghan.BMs3f0
 	Files: ['README', 'err', 't5', 'in', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.h9LEWg
+Sandbox dir /home/build/sandbox.kdehghan.ECKYSK
 	sudo -u build timeout -k 5s 5s ./t5  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 't5', 'in', 'out']
@@ -19,9 +19,9 @@ Sandbox dir /home/build/sandbox.kdehghan.h9LEWg
 
 Unit test /home/vaughan/lab/1/testdir/t5/many: 
  Many lines, some blank
-/home/vaughan/127/lab.kdehghan.4n1zml
+/home/vaughan/127/lab.kdehghan.BMs3f0
 	Files: ['README', 'test.err', 'test.out', 'err', 't5', 'in', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.h9LEWg
+Sandbox dir /home/build/sandbox.kdehghan.ECKYSK
 	sudo -u build timeout -k 5s 5s ./t5  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 't5', 'in', 'out']

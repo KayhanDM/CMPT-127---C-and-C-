@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 2 at 2014-09-14 04:07:21.684804
-Sandbox  /home/build/sandbox.kdehghan.8D6ErW
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 2 at 2014-09-15 04:07:00.674597
+Sandbox  /home/build/sandbox.kdehghan.EKpvqM
 testing CMPT127-1147-kdehghan/1/t2.c
 (make -f /home/vaughan/lab/1/Makefile.test t2 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t2.c  -lm -o t2
@@ -7,9 +7,9 @@ compiled OK
 
 Unit test /home/vaughan/lab/1/testdir/t2/localsizes: 
  Sizes on test machine
-/home/vaughan/127/lab.kdehghan.qwpdtk
+/home/vaughan/127/lab.kdehghan.gNspAQ
 	Files: ['README', 'err', 't2', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.8D6ErW
+Sandbox dir /home/build/sandbox.kdehghan.EKpvqM
 	sudo -u build timeout -k 5s 5s ./t2   > test.out 2> test.err
 	returned 0
 	Files: ['README', 'test.err', 'test.out', 'err', 't2', 'out']
