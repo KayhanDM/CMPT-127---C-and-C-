@@ -1,5 +1,5 @@
-Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 8 at 2014-09-15 04:07:01.709433
-Sandbox  /home/build/sandbox.kdehghan.YnIwNk
+Testing Repo CMPT127-1147-kdehghan/1 Lab 1 Task 8 at 2014-09-16 04:07:49.758668
+Sandbox  /home/build/sandbox.kdehghan.Ul8Fti
 testing CMPT127-1147-kdehghan/1/t8.c
 (make -f /home/vaughan/lab/1/Makefile.test t8 LAB="/home/vaughan/lab/1" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/1" > compiler.out ) >& compiler.err
 	cc -Wall -std=c99    t8.c  -lm -o t8
@@ -7,11 +7,74 @@ compiled OK
 
 Unit test /home/vaughan/lab/1/testdir/t8/1266: 
  from instructions
-/home/vaughan/127/lab.kdehghan.3cItjO
+/home/vaughan/127/lab.kdehghan.5FXdgU
 	Files: ['README', 't8', 'err', '.DS_Store', 'in', 'out']
-Sandbox dir /home/build/sandbox.kdehghan.YnIwNk
+Sandbox dir /home/build/sandbox.kdehghan.Ul8Fti
 	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
 	returned 0
 	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
-Error: Your program wrote incorrect output on stdout.
-Your output was:       ##     \n    #..#    \n   #....#   \n  #......#  \n #........# \n############\n
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t8/111: 
+ from instructions
+/home/vaughan/127/lab.kdehghan.5FXdgU
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.Ul8Fti
+	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
+	returned 0
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t8/40104: 
+ from instructions
+/home/vaughan/127/lab.kdehghan.5FXdgU
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.Ul8Fti
+	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
+	returned 0
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t8/744: 
+ from instructions
+/home/vaughan/127/lab.kdehghan.5FXdgU
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.Ul8Fti
+	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
+	returned 0
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t8/hidden1: 
+ small secret numbers
+/home/vaughan/127/lab.kdehghan.5FXdgU
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.Ul8Fti
+	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
+	returned 0
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+	stdout OK
+	stderr OK
+	passed.
+
+Unit test /home/vaughan/lab/1/testdir/t8/664: 
+ from instructions
+/home/vaughan/127/lab.kdehghan.5FXdgU
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+Sandbox dir /home/build/sandbox.kdehghan.Ul8Fti
+	sudo -u build timeout -k 5s 5s ./t8  < in > test.out 2> test.err
+	returned 0
+	Files: ['README', 't8', 'test.err', 'test.out', 'err', '.DS_Store', 'in', 'out']
+	stdout OK
+	stderr OK
+	passed.
+
+All unit tests passed. Task complete.

@@ -1,0 +1,36 @@
+Testing Repo CMPT127-1147-kdehghan/2 Lab 2 Task 2 at 2014-09-16 04:07:50.060334
+Sandbox  /home/build/sandbox.kdehghan.An8Uoq
+(make -f /home/vaughan/lab/2/Makefile.test t2 LAB="/home/vaughan/lab/2" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/2" > compiler.out ) >& compiler.err
+	cp /home/vaughan/127/CMPT127-1147-kdehghan/2/scrambled.c .
+	cp /home/vaughan/lab/2/test_scrambled.cc .
+	g++ -Wall -o t2 scrambled.c test_scrambled.cc -lm
+compiled OK
+
+Unit test /home/vaughan/lab/2/testdir/t2/all: 
+/home/vaughan/127/lab.kdehghan.qmsVq5
+	Files: ['in', 't2']
+Sandbox dir /home/build/sandbox.kdehghan.An8Uoq
+	sudo -u build timeout -k 5s 5s ./t2  < in > test.out 2> test.err
+	returned 0
+	Files: ['test.err', 'test.out', 'in', 't2']
+	stdout ---------------------------------------------------
+	Zero-length arrays gave correct answer.
+	Example 1 gave correct answer.
+	Example 2 gave correct answer.
+	Example 3 gave correct answer.
+	Example 4 gave correct answer.
+	Example 5 gave correct answer.
+	Example 6 gave correct answer.
+	Example 7 gave correct answer.
+	Example 8 gave correct answer.
+	Example 9 gave correct answer.
+	Example 10 gave correct answer.
+	Example 11 gave correct answer.
+	Example 12 gave correct answer.
+	(EOF) Pass!
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.

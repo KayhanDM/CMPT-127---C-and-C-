@@ -1,0 +1,25 @@
+Testing Repo CMPT127-1147-kdehghan/2 Lab 2 Task 1 at 2014-09-16 04:07:49.951047
+Sandbox  /home/build/sandbox.kdehghan.6shvmH
+(make -f /home/vaughan/lab/2/Makefile.test t1 LAB="/home/vaughan/lab/2" REPO="/home/vaughan/127/CMPT127-1147-kdehghan/2" > compiler.out ) >& compiler.err
+	cp /home/vaughan/127/CMPT127-1147-kdehghan/2/funcs.h .
+	cp /home/vaughan/lab/2/main.c .
+	cp /home/vaughan/lab/2/funcs.c .
+	gcc -Wall -o t1 funcs.c main.c
+compiled OK
+
+Unit test default: 
+/home/vaughan/127/lab.kdehghan.2d3viA
+	Files: ['t1']
+Sandbox dir /home/build/sandbox.kdehghan.6shvmH
+	sudo -u build timeout -k 5s 5s ./t1   > test.out 2> test.err
+	returned 0
+	Files: ['test.err', 't1', 'test.out']
+	stdout ---------------------------------------------------
+	The max of our numbers is 12
+	The min of our numbers is 11
+	stderr ---------------------------------------------------
+	(empty)
+	----------------------------------------------------------
+	passed.
+
+All unit tests passed. Task complete.
